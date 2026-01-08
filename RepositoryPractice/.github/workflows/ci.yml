@@ -13,7 +13,7 @@ jobs:
     #List the steps for this job
     steps:
       - name: Checkout repository
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
       - name: Run a command
         run: echo "Checkout gave you the greenlight"
 
