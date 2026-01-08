@@ -3,7 +3,7 @@ name: CI Demo
 #When should this workflow run (triggers)
 on:
   push:
-    branches: [main] 
+    branches: main
   pull_request:
 
 #What should be done
